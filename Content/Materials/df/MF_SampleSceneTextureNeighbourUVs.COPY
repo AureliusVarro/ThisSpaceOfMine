@@ -1,0 +1,434 @@
+Begin Object Class=/Script/Engine.MaterialFunction Name="MF_SampleSceneTextureNeighbourUVs"
+   Begin Object Class=/Script/Engine.MaterialExpressionAdd Name="MaterialExpressionAdd_50"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionAdd Name="MaterialExpressionAdd_51"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionAdd Name="MaterialExpressionAdd_52"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionAdd Name="MaterialExpressionAdd_53"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionAdd Name="MaterialExpressionAdd_54"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionAdd Name="MaterialExpressionAdd_55"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionAdd Name="MaterialExpressionAdd_56"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionAdd Name="MaterialExpressionAdd_57"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant2Vector Name="MaterialExpressionConstant2Vector_38"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant2Vector Name="MaterialExpressionConstant2Vector_39"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant2Vector Name="MaterialExpressionConstant2Vector_40"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant2Vector Name="MaterialExpressionConstant2Vector_41"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant2Vector Name="MaterialExpressionConstant2Vector_42"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant2Vector Name="MaterialExpressionConstant2Vector_43"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant2Vector Name="MaterialExpressionConstant2Vector_44"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant2Vector Name="MaterialExpressionConstant2Vector_45"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFunctionInput Name="MaterialExpressionFunctionInput_18"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFunctionInput Name="MaterialExpressionFunctionInput_20"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFunctionOutput Name="MaterialExpressionFunctionOutput_10"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFunctionOutput Name="MaterialExpressionFunctionOutput_21"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFunctionOutput Name="MaterialExpressionFunctionOutput_22"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFunctionOutput Name="MaterialExpressionFunctionOutput_23"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFunctionOutput Name="MaterialExpressionFunctionOutput_24"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFunctionOutput Name="MaterialExpressionFunctionOutput_25"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFunctionOutput Name="MaterialExpressionFunctionOutput_26"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFunctionOutput Name="MaterialExpressionFunctionOutput_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFunctionOutput Name="MaterialExpressionFunctionOutput_7"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_65"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_66"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_67"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_68"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_69"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_70"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_71"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_72"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureCoordinate Name="MaterialExpressionTextureCoordinate_3"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_2"
+   End Object
+   Begin Object Name="MaterialExpressionAdd_50"
+      A=(Expression=MaterialExpressionFunctionInput'"MF_SampleSceneTextureNeighbourUVs:MaterialExpressionFunctionInput_20"')
+      B=(Expression=MaterialExpressionMultiply'"MF_SampleSceneTextureNeighbourUVs:MaterialExpressionMultiply_65"')
+      MaterialExpressionEditorX=-2280
+      MaterialExpressionEditorY=460
+      MaterialExpressionGuid=F9972EFD47FE49AA8A1DB8987CD5FD93
+      Function=MaterialFunction'"MF_SampleSceneTextureNeighbourUVs"'
+   End Object
+   Begin Object Name="MaterialExpressionAdd_51"
+      A=(Expression=MaterialExpressionFunctionInput'"MF_SampleSceneTextureNeighbourUVs:MaterialExpressionFunctionInput_20"')
+      B=(Expression=MaterialExpressionMultiply'"MF_SampleSceneTextureNeighbourUVs:MaterialExpressionMultiply_66"')
+      MaterialExpressionEditorX=-2300
+      MaterialExpressionEditorY=580
+      MaterialExpressionGuid=B465F62542ACFFC057CD55919BA00E8C
+      Function=MaterialFunction'"MF_SampleSceneTextureNeighbourUVs"'
+   End Object
+   Begin Object Name="MaterialExpressionAdd_52"
+      A=(Expression=MaterialExpressionFunctionInput'"MF_SampleSceneTextureNeighbourUVs:MaterialExpressionFunctionInput_20"')
+      B=(Expression=MaterialExpressionMultiply'"MF_SampleSceneTextureNeighbourUVs:MaterialExpressionMultiply_67"')
+      MaterialExpressionEditorX=-2300
+      MaterialExpressionEditorY=720
+      MaterialExpressionGuid=A040CEE647A582E3F9C5C2A68D90859F
+      Function=MaterialFunction'"MF_SampleSceneTextureNeighbourUVs"'
+   End Object
+   Begin Object Name="MaterialExpressionAdd_53"
+      A=(Expression=MaterialExpressionFunctionInput'"MF_SampleSceneTextureNeighbourUVs:MaterialExpressionFunctionInput_20"')
+      B=(Expression=MaterialExpressionMultiply'"MF_SampleSceneTextureNeighbourUVs:MaterialExpressionMultiply_68"')
+      MaterialExpressionEditorX=-2080
+      MaterialExpressionEditorY=440
+      MaterialExpressionGuid=20B18A4C477D329C5E18AAA85E813F6E
+      Function=MaterialFunction'"MF_SampleSceneTextureNeighbourUVs"'
+   End Object
+   Begin Object Name="MaterialExpressionAdd_54"
+      A=(Expression=MaterialExpressionFunctionInput'"MF_SampleSceneTextureNeighbourUVs:MaterialExpressionFunctionInput_20"')
+      B=(Expression=MaterialExpressionMultiply'"MF_SampleSceneTextureNeighbourUVs:MaterialExpressionMultiply_70"')
+      MaterialExpressionEditorX=-2080
+      MaterialExpressionEditorY=720
+      MaterialExpressionGuid=B807541A415430927B2319B934EFAC93
+      Function=MaterialFunction'"MF_SampleSceneTextureNeighbourUVs"'
+   End Object
+   Begin Object Name="MaterialExpressionAdd_55"
+      A=(Expression=MaterialExpressionFunctionInput'"MF_SampleSceneTextureNeighbourUVs:MaterialExpressionFunctionInput_20"')
+      B=(Expression=MaterialExpressionMultiply'"MF_SampleSceneTextureNeighbourUVs:MaterialExpressionMultiply_69"')
+      MaterialExpressionEditorX=-1840
+      MaterialExpressionEditorY=440
+      MaterialExpressionGuid=6FAFCA9D4371CCB42FAF41B556CB3A38
+      Function=MaterialFunction'"MF_SampleSceneTextureNeighbourUVs"'
+   End Object
+   Begin Object Name="MaterialExpressionAdd_56"
+      A=(Expression=MaterialExpressionFunctionInput'"MF_SampleSceneTextureNeighbourUVs:MaterialExpressionFunctionInput_20"')
+      B=(Expression=MaterialExpressionMultiply'"MF_SampleSceneTextureNeighbourUVs:MaterialExpressionMultiply_71"')
+      MaterialExpressionEditorX=-1840
+      MaterialExpressionEditorY=580
+      MaterialExpressionGuid=327AA05046F9E44A1D83AB85A6030B53
+      Function=MaterialFunction'"MF_SampleSceneTextureNeighbourUVs"'
+   End Object
+   Begin Object Name="MaterialExpressionAdd_57"
+      A=(Expression=MaterialExpressionFunctionInput'"MF_SampleSceneTextureNeighbourUVs:MaterialExpressionFunctionInput_20"')
+      B=(Expression=MaterialExpressionMultiply'"MF_SampleSceneTextureNeighbourUVs:MaterialExpressionMultiply_72"')
+      MaterialExpressionEditorX=-1840
+      MaterialExpressionEditorY=720
+      MaterialExpressionGuid=B0B71CC94854DE3F9CCCD68AF890D9F4
+      Function=MaterialFunction'"MF_SampleSceneTextureNeighbourUVs"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant2Vector_38"
+      R=-1.000000
+      MaterialExpressionEditorX=-2900
+      MaterialExpressionEditorY=60
+      MaterialExpressionGuid=8A35192F4D030D48B99B20948CCA595B
+      Function=MaterialFunction'"MF_SampleSceneTextureNeighbourUVs"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant2Vector_39"
+      R=-1.000000
+      G=1.000000
+      MaterialExpressionEditorX=-2920
+      MaterialExpressionEditorY=200
+      MaterialExpressionGuid=116F5EE249A27FF7516B1695CEDE3E3A
+      Function=MaterialFunction'"MF_SampleSceneTextureNeighbourUVs"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant2Vector_40"
+      R=-1.000000
+      G=-1.000000
+      MaterialExpressionEditorX=-2920
+      MaterialExpressionEditorY=-60
+      MaterialExpressionGuid=8EE85D5A493F6A047F7F6A93B00BAD8E
+      Function=MaterialFunction'"MF_SampleSceneTextureNeighbourUVs"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant2Vector_41"
+      G=-1.000000
+      MaterialExpressionEditorX=-2640
+      MaterialExpressionEditorY=-60
+      MaterialExpressionGuid=6B608EEC45D50F7544FA849B4C700CCC
+      Function=MaterialFunction'"MF_SampleSceneTextureNeighbourUVs"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant2Vector_42"
+      R=1.000000
+      G=-1.000000
+      MaterialExpressionEditorX=-2380
+      MaterialExpressionEditorY=-60
+      MaterialExpressionGuid=B62FB7B84BFF6E3140853CBB9AEBEC1D
+      Function=MaterialFunction'"MF_SampleSceneTextureNeighbourUVs"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant2Vector_43"
+      R=1.000000
+      MaterialExpressionEditorX=-2380
+      MaterialExpressionEditorY=220
+      MaterialExpressionGuid=CC3141BC4E18736188FA4D80F4DF39F6
+      Function=MaterialFunction'"MF_SampleSceneTextureNeighbourUVs"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant2Vector_44"
+      R=1.000000
+      G=1.000000
+      MaterialExpressionEditorX=-2380
+      MaterialExpressionEditorY=100
+      MaterialExpressionGuid=AD80495948DF5846183252BFC2786E61
+      Function=MaterialFunction'"MF_SampleSceneTextureNeighbourUVs"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant2Vector_45"
+      G=1.000000
+      MaterialExpressionEditorX=-2640
+      MaterialExpressionEditorY=220
+      MaterialExpressionGuid=249AAA2248B431F3196FD3B79976890D
+      Function=MaterialFunction'"MF_SampleSceneTextureNeighbourUVs"'
+   End Object
+   Begin Object Name="MaterialExpressionFunctionInput_18"
+      InputName="Texel Offset"
+      Description="Distance at which sample neighbour colors"
+      Id=BADAE3844BFEBE0ED69A60B1F8B84FC9
+      InputType=FunctionInput_Vector2
+      PreviewValue=(X=1.000000,Y=1.000000,Z=0.000000,W=1.000000)
+      MaterialExpressionEditorX=-3340
+      MaterialExpressionEditorY=280
+      MaterialExpressionGuid=0EA1C77740C7D6D4E013D9A89440A84A
+      Function=MaterialFunction'"MF_SampleSceneTextureNeighbourUVs"'
+      bCollapsed=True
+   End Object
+   Begin Object Name="MaterialExpressionFunctionInput_20"
+      Preview=(Expression=MaterialExpressionTextureCoordinate'"MF_SampleSceneTextureNeighbourUVs:MaterialExpressionTextureCoordinate_3"')
+      InputName="Texture UV"
+      Id=3015F82F46E48A4DBC719988EE9E66E4
+      InputType=FunctionInput_Vector2
+      bUsePreviewValueAsDefault=True
+      MaterialExpressionEditorX=-2860
+      MaterialExpressionEditorY=1020
+      MaterialExpressionGuid=AEF8EF7543C954CF4D0F18A6798BFB7A
+      Function=MaterialFunction'"MF_SampleSceneTextureNeighbourUVs"'
+   End Object
+   Begin Object Name="MaterialExpressionFunctionOutput_10"
+      OutputName="Bottom-Left"
+      A=(Expression=MaterialExpressionAdd'"MF_SampleSceneTextureNeighbourUVs:MaterialExpressionAdd_52"')
+      bLastPreviewed=True
+      Id=DEAB3B82470C5AED4FEED9B8CFDABF16
+      MaterialExpressionEditorX=-1520
+      MaterialExpressionEditorY=760
+      MaterialExpressionGuid=C6619927484511DEB644039DE473C28C
+      Function=MaterialFunction'"MF_SampleSceneTextureNeighbourUVs"'
+      bCollapsed=True
+   End Object
+   Begin Object Name="MaterialExpressionFunctionOutput_21"
+      OutputName="Top-Center"
+      A=(Expression=MaterialExpressionAdd'"MF_SampleSceneTextureNeighbourUVs:MaterialExpressionAdd_53"')
+      bLastPreviewed=True
+      Id=BDD57A5642B142079B1CEBA3B017A8F7
+      MaterialExpressionEditorX=-1300
+      MaterialExpressionEditorY=480
+      MaterialExpressionGuid=DF2F6A264DD183CFA5440BA58C2F8075
+      Function=MaterialFunction'"MF_SampleSceneTextureNeighbourUVs"'
+      bCollapsed=True
+   End Object
+   Begin Object Name="MaterialExpressionFunctionOutput_22"
+      OutputName="Middle-Center"
+      A=(Expression=MaterialExpressionFunctionInput'"MF_SampleSceneTextureNeighbourUVs:MaterialExpressionFunctionInput_20"')
+      bLastPreviewed=True
+      Id=FC1BE3644C14FD0892BA729C330739AE
+      MaterialExpressionEditorX=-1280
+      MaterialExpressionEditorY=620
+      MaterialExpressionGuid=B341232046E0F325BBF4C7B372A9E479
+      Function=MaterialFunction'"MF_SampleSceneTextureNeighbourUVs"'
+      bCollapsed=True
+   End Object
+   Begin Object Name="MaterialExpressionFunctionOutput_23"
+      OutputName="Bottom-Center"
+      A=(Expression=MaterialExpressionAdd'"MF_SampleSceneTextureNeighbourUVs:MaterialExpressionAdd_54"')
+      bLastPreviewed=True
+      Id=06E45D07440D7E1FD551C99111FDBE85
+      MaterialExpressionEditorX=-1280
+      MaterialExpressionEditorY=760
+      MaterialExpressionGuid=FA46318940B763892794D19AC0D8FBEA
+      Function=MaterialFunction'"MF_SampleSceneTextureNeighbourUVs"'
+      bCollapsed=True
+   End Object
+   Begin Object Name="MaterialExpressionFunctionOutput_24"
+      OutputName="Top-Right"
+      A=(Expression=MaterialExpressionAdd'"MF_SampleSceneTextureNeighbourUVs:MaterialExpressionAdd_55"')
+      bLastPreviewed=True
+      Id=1EDB4BCE495378ABB6AD4BAFEB29E529
+      MaterialExpressionEditorX=-1040
+      MaterialExpressionEditorY=480
+      MaterialExpressionGuid=AD5DA6BD48491497E6F5B883D99FDBC9
+      Function=MaterialFunction'"MF_SampleSceneTextureNeighbourUVs"'
+      bCollapsed=True
+   End Object
+   Begin Object Name="MaterialExpressionFunctionOutput_25"
+      OutputName="Middle-Right"
+      A=(Expression=MaterialExpressionAdd'"MF_SampleSceneTextureNeighbourUVs:MaterialExpressionAdd_56"')
+      bLastPreviewed=True
+      Id=6C15E51745BF073CAAD51590834026E1
+      MaterialExpressionEditorX=-1040
+      MaterialExpressionEditorY=620
+      MaterialExpressionGuid=305EA5E4424C49A387F1788A3F3B8A82
+      Function=MaterialFunction'"MF_SampleSceneTextureNeighbourUVs"'
+      bCollapsed=True
+   End Object
+   Begin Object Name="MaterialExpressionFunctionOutput_26"
+      OutputName="Bottom-Right"
+      A=(Expression=MaterialExpressionAdd'"MF_SampleSceneTextureNeighbourUVs:MaterialExpressionAdd_57"')
+      bLastPreviewed=True
+      Id=05A141954B5EFB5E499A8F826E22C619
+      MaterialExpressionEditorX=-1040
+      MaterialExpressionEditorY=760
+      MaterialExpressionGuid=CD38555D4A7050279CBFAE91A44B4FC5
+      Function=MaterialFunction'"MF_SampleSceneTextureNeighbourUVs"'
+      bCollapsed=True
+   End Object
+   Begin Object Name="MaterialExpressionFunctionOutput_4"
+      OutputName="Top-Left"
+      A=(Expression=MaterialExpressionAdd'"MF_SampleSceneTextureNeighbourUVs:MaterialExpressionAdd_50"')
+      bLastPreviewed=True
+      Id=9E193E1C47C920DB82C02A9CF23C7FB4
+      MaterialExpressionEditorX=-1530
+      MaterialExpressionEditorY=455
+      MaterialExpressionGuid=7B8AC32843CA0B2D6A5F82AC8D7E3331
+      Function=MaterialFunction'"MF_SampleSceneTextureNeighbourUVs"'
+      bCollapsed=True
+   End Object
+   Begin Object Name="MaterialExpressionFunctionOutput_7"
+      OutputName="Middle-Left"
+      A=(Expression=MaterialExpressionAdd'"MF_SampleSceneTextureNeighbourUVs:MaterialExpressionAdd_51"')
+      bLastPreviewed=True
+      Id=310FFF8A4E0690A48C196198CD2E96D2
+      MaterialExpressionEditorX=-1520
+      MaterialExpressionEditorY=620
+      MaterialExpressionGuid=01D1C015409079D7120AD28059DA0AB1
+      Function=MaterialFunction'"MF_SampleSceneTextureNeighbourUVs"'
+      bCollapsed=True
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_65"
+      A=(Expression=MaterialExpressionConstant2Vector'"MF_SampleSceneTextureNeighbourUVs:MaterialExpressionConstant2Vector_40"')
+      B=(Expression=MaterialExpressionFunctionInput'"MF_SampleSceneTextureNeighbourUVs:MaterialExpressionFunctionInput_18"')
+      MaterialExpressionEditorX=-2800
+      MaterialExpressionEditorY=-60
+      MaterialExpressionGuid=05AA86A24FDBF7729CA3CA97553B012D
+      Function=MaterialFunction'"MF_SampleSceneTextureNeighbourUVs"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_66"
+      A=(Expression=MaterialExpressionConstant2Vector'"MF_SampleSceneTextureNeighbourUVs:MaterialExpressionConstant2Vector_38"')
+      B=(Expression=MaterialExpressionFunctionInput'"MF_SampleSceneTextureNeighbourUVs:MaterialExpressionFunctionInput_18"')
+      MaterialExpressionEditorX=-2800
+      MaterialExpressionEditorY=60
+      MaterialExpressionGuid=EC54B6BD473C8CE0CC396C8702FF2FD3
+      Function=MaterialFunction'"MF_SampleSceneTextureNeighbourUVs"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_67"
+      A=(Expression=MaterialExpressionConstant2Vector'"MF_SampleSceneTextureNeighbourUVs:MaterialExpressionConstant2Vector_39"')
+      B=(Expression=MaterialExpressionFunctionInput'"MF_SampleSceneTextureNeighbourUVs:MaterialExpressionFunctionInput_18"')
+      MaterialExpressionEditorX=-2800
+      MaterialExpressionEditorY=200
+      MaterialExpressionGuid=01B6E0DB426AFEB283E4FDB1FBD4D646
+      Function=MaterialFunction'"MF_SampleSceneTextureNeighbourUVs"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_68"
+      A=(Expression=MaterialExpressionConstant2Vector'"MF_SampleSceneTextureNeighbourUVs:MaterialExpressionConstant2Vector_41"')
+      B=(Expression=MaterialExpressionFunctionInput'"MF_SampleSceneTextureNeighbourUVs:MaterialExpressionFunctionInput_18"')
+      MaterialExpressionEditorX=-2520
+      MaterialExpressionEditorY=-60
+      MaterialExpressionGuid=9F35969F45F9C8C1C691D59D5379589C
+      Function=MaterialFunction'"MF_SampleSceneTextureNeighbourUVs"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_69"
+      A=(Expression=MaterialExpressionConstant2Vector'"MF_SampleSceneTextureNeighbourUVs:MaterialExpressionConstant2Vector_42"')
+      B=(Expression=MaterialExpressionFunctionInput'"MF_SampleSceneTextureNeighbourUVs:MaterialExpressionFunctionInput_18"')
+      MaterialExpressionEditorX=-2260
+      MaterialExpressionEditorY=-60
+      MaterialExpressionGuid=28F5202E4995013622D78A9D5ACD8257
+      Function=MaterialFunction'"MF_SampleSceneTextureNeighbourUVs"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_70"
+      A=(Expression=MaterialExpressionConstant2Vector'"MF_SampleSceneTextureNeighbourUVs:MaterialExpressionConstant2Vector_45"')
+      B=(Expression=MaterialExpressionFunctionInput'"MF_SampleSceneTextureNeighbourUVs:MaterialExpressionFunctionInput_18"')
+      MaterialExpressionEditorX=-2540
+      MaterialExpressionEditorY=220
+      MaterialExpressionGuid=E9285BBA4F72D1352C0F60A9FEE7120A
+      Function=MaterialFunction'"MF_SampleSceneTextureNeighbourUVs"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_71"
+      A=(Expression=MaterialExpressionConstant2Vector'"MF_SampleSceneTextureNeighbourUVs:MaterialExpressionConstant2Vector_44"')
+      B=(Expression=MaterialExpressionFunctionInput'"MF_SampleSceneTextureNeighbourUVs:MaterialExpressionFunctionInput_18"')
+      MaterialExpressionEditorX=-2260
+      MaterialExpressionEditorY=100
+      MaterialExpressionGuid=74C749174764F89AD3D4208C93DFDE20
+      Function=MaterialFunction'"MF_SampleSceneTextureNeighbourUVs"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_72"
+      A=(Expression=MaterialExpressionConstant2Vector'"MF_SampleSceneTextureNeighbourUVs:MaterialExpressionConstant2Vector_43"')
+      B=(Expression=MaterialExpressionFunctionInput'"MF_SampleSceneTextureNeighbourUVs:MaterialExpressionFunctionInput_18"')
+      MaterialExpressionEditorX=-2240
+      MaterialExpressionEditorY=220
+      MaterialExpressionGuid=36F99BAC40327DE796EEC4BD52657984
+      Function=MaterialFunction'"MF_SampleSceneTextureNeighbourUVs"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureCoordinate_3"
+      MaterialExpressionEditorX=-3120
+      MaterialExpressionEditorY=1020
+      MaterialExpressionGuid=C3EF893D4447C8D10214FD87F914D2AF
+      Function=MaterialFunction'"MF_SampleSceneTextureNeighbourUVs"'
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_2"
+   End Object
+   Description="Used To generate texture coordinates for all pixels adjacent to current pixel"
+   FunctionExpressions(0)=MaterialExpressionFunctionOutput'"MaterialExpressionFunctionOutput_4"'
+   FunctionExpressions(1)=MaterialExpressionFunctionInput'"MaterialExpressionFunctionInput_18"'
+   FunctionExpressions(2)=MaterialExpressionFunctionInput'"MaterialExpressionFunctionInput_20"'
+   FunctionExpressions(3)=MaterialExpressionTextureCoordinate'"MaterialExpressionTextureCoordinate_3"'
+   FunctionExpressions(4)=MaterialExpressionConstant2Vector'"MaterialExpressionConstant2Vector_38"'
+   FunctionExpressions(5)=MaterialExpressionConstant2Vector'"MaterialExpressionConstant2Vector_39"'
+   FunctionExpressions(6)=MaterialExpressionConstant2Vector'"MaterialExpressionConstant2Vector_40"'
+   FunctionExpressions(7)=MaterialExpressionConstant2Vector'"MaterialExpressionConstant2Vector_41"'
+   FunctionExpressions(8)=MaterialExpressionConstant2Vector'"MaterialExpressionConstant2Vector_42"'
+   FunctionExpressions(9)=MaterialExpressionConstant2Vector'"MaterialExpressionConstant2Vector_43"'
+   FunctionExpressions(10)=MaterialExpressionConstant2Vector'"MaterialExpressionConstant2Vector_44"'
+   FunctionExpressions(11)=MaterialExpressionConstant2Vector'"MaterialExpressionConstant2Vector_45"'
+   FunctionExpressions(12)=MaterialExpressionMultiply'"MaterialExpressionMultiply_65"'
+   FunctionExpressions(13)=MaterialExpressionMultiply'"MaterialExpressionMultiply_66"'
+   FunctionExpressions(14)=MaterialExpressionMultiply'"MaterialExpressionMultiply_67"'
+   FunctionExpressions(15)=MaterialExpressionMultiply'"MaterialExpressionMultiply_68"'
+   FunctionExpressions(16)=MaterialExpressionMultiply'"MaterialExpressionMultiply_69"'
+   FunctionExpressions(17)=MaterialExpressionMultiply'"MaterialExpressionMultiply_70"'
+   FunctionExpressions(18)=MaterialExpressionMultiply'"MaterialExpressionMultiply_71"'
+   FunctionExpressions(19)=MaterialExpressionMultiply'"MaterialExpressionMultiply_72"'
+   FunctionExpressions(20)=MaterialExpressionAdd'"MaterialExpressionAdd_50"'
+   FunctionExpressions(21)=MaterialExpressionAdd'"MaterialExpressionAdd_51"'
+   FunctionExpressions(22)=MaterialExpressionAdd'"MaterialExpressionAdd_52"'
+   FunctionExpressions(23)=MaterialExpressionAdd'"MaterialExpressionAdd_53"'
+   FunctionExpressions(24)=MaterialExpressionAdd'"MaterialExpressionAdd_54"'
+   FunctionExpressions(25)=MaterialExpressionAdd'"MaterialExpressionAdd_55"'
+   FunctionExpressions(26)=MaterialExpressionAdd'"MaterialExpressionAdd_56"'
+   FunctionExpressions(27)=MaterialExpressionAdd'"MaterialExpressionAdd_57"'
+   FunctionExpressions(28)=MaterialExpressionFunctionOutput'"MaterialExpressionFunctionOutput_7"'
+   FunctionExpressions(29)=MaterialExpressionFunctionOutput'"MaterialExpressionFunctionOutput_10"'
+   FunctionExpressions(30)=MaterialExpressionFunctionOutput'"MaterialExpressionFunctionOutput_21"'
+   FunctionExpressions(31)=MaterialExpressionFunctionOutput'"MaterialExpressionFunctionOutput_22"'
+   FunctionExpressions(32)=MaterialExpressionFunctionOutput'"MaterialExpressionFunctionOutput_23"'
+   FunctionExpressions(33)=MaterialExpressionFunctionOutput'"MaterialExpressionFunctionOutput_24"'
+   FunctionExpressions(34)=MaterialExpressionFunctionOutput'"MaterialExpressionFunctionOutput_25"'
+   FunctionExpressions(35)=MaterialExpressionFunctionOutput'"MaterialExpressionFunctionOutput_26"'
+   CombinedInputTypes=2
+   CombinedOutputTypes=15
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_2"'
+End Object
