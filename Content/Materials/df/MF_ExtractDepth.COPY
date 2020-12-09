@@ -1,0 +1,78 @@
+Begin Object Class=/Script/Engine.MaterialFunction Name="MF_ExtractDepth"
+   Begin Object Class=/Script/Engine.MaterialExpressionClamp Name="MaterialExpressionClamp_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionDivide Name="MaterialExpressionDivide_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFunctionInput Name="MaterialExpressionFunctionInput_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFunctionOutput Name="MaterialExpressionFunctionOutput_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionSceneTexture Name="MaterialExpressionSceneTexture_41"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_2"
+   End Object
+   Begin Object Name="MaterialExpressionClamp_0"
+      Input=(Expression=MaterialExpressionSceneTexture'"MF_ExtractDepth:MaterialExpressionSceneTexture_41"',Mask=1,MaskR=1,MaskG=1,MaskB=1,MaskA=1)
+      Max=(Expression=MaterialExpressionConstant'"MF_ExtractDepth:MaterialExpressionConstant_1"')
+      MaxDefault=20000.000000
+      MaterialExpressionEditorX=-80
+      MaterialExpressionEditorY=400
+      MaterialExpressionGuid=574EBBDF45724E65C455DEB2117317A8
+      Function=MaterialFunction'"MF_ExtractDepth"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_1"
+      R=5000.000000
+      MaterialExpressionEditorX=-460
+      MaterialExpressionEditorY=600
+      MaterialExpressionGuid=06AD82A3450ADEAD4DA0EC97A7F3B505
+      Function=MaterialFunction'"MF_ExtractDepth"'
+   End Object
+   Begin Object Name="MaterialExpressionDivide_2"
+      A=(Expression=MaterialExpressionClamp'"MF_ExtractDepth:MaterialExpressionClamp_0"')
+      B=(Expression=MaterialExpressionConstant'"MF_ExtractDepth:MaterialExpressionConstant_1"')
+      ConstB=20000.000000
+      MaterialExpressionEditorX=300
+      MaterialExpressionEditorY=440
+      MaterialExpressionGuid=B3098CE948264AC70606E3B3138163F3
+      Function=MaterialFunction'"MF_ExtractDepth"'
+   End Object
+   Begin Object Name="MaterialExpressionFunctionInput_0"
+      InputName="UV"
+      Id=C247C3B64B7BFE73279E749C993D697D
+      InputType=FunctionInput_Vector2
+      MaterialExpressionEditorX=-920
+      MaterialExpressionEditorY=380
+      MaterialExpressionGuid=205554794931CA61EA8BA49EF9B1365B
+      Function=MaterialFunction'"MF_ExtractDepth"'
+   End Object
+   Begin Object Name="MaterialExpressionFunctionOutput_0"
+      A=(Expression=MaterialExpressionDivide'"MF_ExtractDepth:MaterialExpressionDivide_2"')
+      bLastPreviewed=True
+      Id=EC50E50F4F7AA61DEDF6719537EDFC7A
+      MaterialExpressionEditorX=568
+      MaterialExpressionEditorY=383
+      MaterialExpressionGuid=76B5068F409FBB3DA0EA26B2FA937199
+      Function=MaterialFunction'"MF_ExtractDepth"'
+   End Object
+   Begin Object Name="MaterialExpressionSceneTexture_41"
+      Coordinates=(Expression=MaterialExpressionFunctionInput'"MF_ExtractDepth:MaterialExpressionFunctionInput_0"')
+      SceneTextureId=PPI_CustomDepth
+      MaterialExpressionEditorX=-580
+      MaterialExpressionEditorY=400
+      MaterialExpressionGuid=F9F35D544BC0E088A4F4AD9295901C2C
+      Function=MaterialFunction'"MF_ExtractDepth"'
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_2"
+   End Object
+   FunctionExpressions(0)=MaterialExpressionFunctionOutput'"MaterialExpressionFunctionOutput_0"'
+   FunctionExpressions(1)=MaterialExpressionFunctionInput'"MaterialExpressionFunctionInput_0"'
+   FunctionExpressions(2)=MaterialExpressionSceneTexture'"MaterialExpressionSceneTexture_41"'
+   FunctionExpressions(3)=MaterialExpressionClamp'"MaterialExpressionClamp_0"'
+   FunctionExpressions(4)=MaterialExpressionDivide'"MaterialExpressionDivide_2"'
+   FunctionExpressions(5)=MaterialExpressionConstant'"MaterialExpressionConstant_1"'
+   CombinedInputTypes=2
+   CombinedOutputTypes=15
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_2"'
+End Object
